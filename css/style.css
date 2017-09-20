@@ -24,7 +24,7 @@ text-shadow:0 0 20px #fff;
 @media screen and (max-width: 550px) {
   .intro {
     font-size: 1.5em;
-    margin-top: 150%;
+    margin-top: 300%;
   }
 }
 
