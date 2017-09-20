@@ -4,28 +4,49 @@
   <meta charset="UTF-8">
   <title> Martin Mutembei</title>
    <link rel="stylesheet" href="css/style.css"> 
+   <link rel="stylesheet" href="css/w3.css"> 
 </head>
 
 <body>
 <section id="home">
 
+<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav w3-large">&times;</a>
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  <a href="#">Link 4</a>
+  <a href="#">Link 5</a>
+</nav>
+
+<header class="w3-container ">
+  <span class="w3-opennav w3-xlarge" onclick="w3_open()">&#9776;</span>
+</header>
+
+
+
 <div class="welcome">
 
-
-<div class="martin">
-<img class="cool"src="media/n.svg">
-</div>
-
-<div class="martinn">
-<img class="awesome"src="media/n.svg">
-</div>
-
+<p class="intro">MARTIN MUTEMBEI.</p>
 </div>
 
 <div class="try">
+<p CLASS="defination">UI & UX DEVELOPER</p>
 
 </div>
 </section>
+
+
+
+<script>
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+}
+</script>
 
 </body>
 </html>
