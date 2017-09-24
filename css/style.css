@@ -60,7 +60,8 @@ text-shadow:0 0 40px #000;
 	width:100%;
 }
 .w3-container{
-	width:50px;
+	width:100px;
+	height: 80px;
 	margin-top:-2px;
 	margin-left: -1px;
 	border:2px solid #fff;
