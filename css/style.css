@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Playball');
 @import url('https://fonts.googleapis.com/css?family=Shojumaru');
 @import url('https://fonts.googleapis.com/css?family=Nosifer');
-
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 #home{
   background: -webkit-linear-gradient(135deg, #000, #101010);
   background: linear-gradient(135deg, #000, #fff);
@@ -60,6 +60,8 @@ text-shadow:0 0 40px #000;
 }
 .w3-container{
 	width:50px;
+	margin-top:-2px;
+	margin-left: -1px;
 	border:2px solid #fff;
 	
 }
@@ -83,16 +85,19 @@ text-shadow:0 0 40px #000;
 .closingicon{
 	width:20%;
 	float:left;
-	margin-left: 10%;
-	margin-top:5%;
+	margin-top:-5%;
 }
 .closingtext{
 	width:30%;
 	float:left;
-	margin: 10%;
-	margin-top: -0.8%;
+	margin-top: -2.8%;
 	margin-left:-5%;
 
+}
+.close{
+	font-size: 30px;
+	margin-top: -20px;
+	margin-left: -35px;
 }
 @media screen and (min-width: 1500px) {
  #mySidenav{
@@ -103,7 +108,17 @@ text-shadow:0 0 40px #000;
 	margin-top: -0.2%;
 }
 }
-
-
+.menu{
+	font-size: 25px;
+	margin-left: -50px;
+	color: #00ccff;
+	font-family:Sedgwick Ave Display;
+}
+.menu:hover{
+	text-shadow:0 0 30px #00ccff;
+}
+.horline{
+	margin-top: -25px;
+}
 
 /*shojumaru*/
