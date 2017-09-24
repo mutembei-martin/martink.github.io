@@ -10,17 +10,18 @@
 <body>
 <section id="home">
 
-<nav class="w3-sidenav w3-white w3-card-2" style="display:none" id="mySidenav">
-  <a href="javascript:void(0)" onclick="w3_close()" 
-  class="w3-closenav w3-large">&times;</a>
-  <a href="#">Link 1</a>
+<nav class="w3-sidenav w3-card-2" style="display:none" id="mySidenav">
+  <div class="closingicon"><a href="javascript:void(0)" onclick="w3_close()" 
+  class="w3-closenav w3-large">&times;</div><div class="closingtext"><p class="close">Close</p></a></div>
+
+  <!-- <a href="#">Link 1</a>
   <a href="#">Link 2</a>
   <a href="#">Link 3</a>
   <a href="#">Link 4</a>
-  <a href="#">Link 5</a>
+  <a href="#">Link 5</a> -->
 </nav>
 
-<header class="w3-container ">
+<header id="myHeader" class="w3-container style="display:none" w3-black">
   <span class="w3-opennav w3-xlarge" onclick="w3_open()">&#9776;</span>
 </header>
 
@@ -32,7 +33,7 @@
 </div>
 
 <div class="try">
-<p CLASS="defination">UI & UX DEVELOPER</p>
+<p CLASS="defination">UI & UX DEVELOPER.</p>
 
 </div>
 </section>
@@ -45,6 +46,19 @@ function w3_open() {
 }
 function w3_close() {
     document.getElementById("mySidenav").style.display = "none";
+
+
+ var section = document.querySelector('home');
+
+section.width = window.innerWidth;
+section.height = window.innerHeight;
+
+if (window.innerwidth < 550) {
+  document.getElementById("myHeader").style.display = "block";
+}
+else{
+  document.getElementById("myHeader").style.display = "none";
+}
 }
 </script>
 

@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Playball');
+@import url('https://fonts.googleapis.com/css?family=Shojumaru');
+@import url('https://fonts.googleapis.com/css?family=Nosifer');
+
 #home{
   background: -webkit-linear-gradient(135deg, #000, #101010);
   background: linear-gradient(135deg, #000, #fff);
    background-repeat:no-repeat;
-  height: 96vh;
+  height: 100vh;
   text-align: center;
-  border:10px solid #fff;
+  border:15px solid #fff;
       
 }
 .welcome{
@@ -20,18 +24,6 @@ font-weight: bold;
 color:#fff;
 text-shadow:0 0 20px #fff;
 }
-
-@media screen and (max-width: 550px) {
-  .intro {
-    font-size: 1.5em;
-    margin-top: 150%;
-  }
-}
-
-.try{
-	margin-left: 40%;
-	width: 50%;
-}
 .defination{
 font-family:shojumaru;
 font-size: 60px;
@@ -39,12 +31,79 @@ font-weight: bold;
 color:#000;
 text-shadow:0 0 40px #000;
 }
+.try{
+	margin-left: 40%;
+	width: 50%;
+}
+
 @media screen and (max-width: 550px) {
+  .intro {
+    font-size: 1.5em;
+    margin-top: 150%;
+  }
   .defination {
     font-size: 1.5em;
     margin-top: 100%;
   }
+  .w3-container{
+	display: block;
 }
+}
+
+
 .w3-opennav{
-	margin-left: -100%;
+	margin-left: -20%;
+	margin-top:-25%;
 }
+.w3-sidenav{
+	width:100%;
+}
+.w3-container{
+	width:50px;
+	border:2px solid #fff;
+	
+}
+#mySidenav{
+	 background: -webkit-linear-gradient(135deg, #000, #101010);
+  background: linear-gradient(135deg, #000, #fff);
+   background-repeat:no-repeat;
+  height: 60vh;
+	width:250px;
+	border-radius: 0 0 20px 0;
+	
+}
+.w3-closenav{
+	margin-left:-80%;
+}
+.close{
+	color:#0ff;
+	font-family:playball;
+	text-shadow:0 0 20px #0ff;
+}
+.closingicon{
+	width:20%;
+	float:left;
+	margin-left: 10%;
+	margin-top:5%;
+}
+.closingtext{
+	width:30%;
+	float:left;
+	margin: 10%;
+	margin-top: -0.8%;
+	margin-left:-5%;
+
+}
+@media screen and (min-width: 1500px) {
+ #mySidenav{
+	width:300px;
+
+}
+.closingtext{
+	margin-top: -0.2%;
+}
+}
+
+
+
+/*shojumaru*/
