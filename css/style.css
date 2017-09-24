@@ -22,6 +22,7 @@ font-family:nosifer;
 font-size: 60px;
 font-weight: bold;
 color:#fff;
+margin-top: 250px;
 text-shadow:0 0 20px #fff;
 }
 .defination{
@@ -69,8 +70,8 @@ text-shadow:0 0 40px #000;
 	 background: -webkit-linear-gradient(135deg, #000, #101010);
   background: linear-gradient(135deg, #000, #fff);
    background-repeat:no-repeat;
-  height: 60vh;
-	width:250px;
+  height: 80vh;
+	width:500px;
 	border-radius: 0 0 20px 0;
 	
 }
@@ -86,7 +87,8 @@ text-shadow:0 0 40px #000;
 .closingicon{
 	width:20%;
 	float:left;
-	margin-top:-5%;
+	margin-top:-2%;
+	margin-left: 2%;
 }
 .closingtext{
 	width:30%;
@@ -96,9 +98,9 @@ text-shadow:0 0 40px #000;
 
 }
 .close{
-	font-size: 30px;
-	margin-top: -20px;
-	margin-left: -35px;
+	font-size: 40px;
+	margin-top: -15px;
+	margin-left: -105px;
 }
 @media screen and (max-width: 650px) {
  #mySidenav{
@@ -118,7 +120,7 @@ text-shadow:0 0 40px #000;
 }
 }
 .menu{
-	font-size: 25px;
+	font-size: 40px;
 	margin-left: -50px;
 	color: #00ccff;
 	font-family:Sedgwick Ave Display;
